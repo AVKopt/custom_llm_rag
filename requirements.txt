@@ -1,3 +1,6 @@
+--upgrade pip 
+--upgrade setuptools 
+--upgrade wheel 
 streamlit
 llama-cpp-python --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
 langchain
