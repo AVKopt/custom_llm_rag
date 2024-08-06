@@ -2,7 +2,7 @@ import os
 import tempfile
 import streamlit as st
 
-from config import VECT_STORE_DIR, MODELS_DIR, EMB_MODEL_DIR, EMB_MODEL_NAME_BGE_M3, LLM_MODEL_NAME, template, RANDOM, MARKDOWN_SEPARATORS
+from config import MODELS_DIR, EMB_MODEL_DIR, EMB_MODEL_NAME_BGE_M3, LLM_MODEL_NAME, template, RANDOM, MARKDOWN_SEPARATORS
 
 from langchain_community.llms import LlamaCpp
 from langchain_core.callbacks import CallbackManager, StreamingStdOutCallbackHandler
